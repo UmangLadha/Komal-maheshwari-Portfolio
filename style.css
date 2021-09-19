@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+.root {
+    --primary-color: #6D28D9;
+    --white-smock: whitesmoke;
+    --light-purple: #EDE9FE;
+    --dark-gray: #374151;
+    --dark-blue:rgb(13, 7, 78);
+}
+
+/* body */
+
+body {
+    font-family: 'Mate SC', serif;
+    margin: 0px;
+    display: block;
+}
+
+/* header-part */
+
+.navigation .nav-brand {
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--dark-blue);
+    text-align:left;
+}
+
+.navigation .toplink {
+    color: var(--dark-blue);
+    text-align: right;
+    text-decoration:none;
+}
+
+.navigation .list {
+    text-align: right;
+    color: var(--dark-blue);
+    font-size: large;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+    text-align: center;
+}
+
+.list-inline {
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+
+.image {
+    max-width: 80%;
+    width: 360px;
+    display: block;
+    
+}
+.header{
+    color: var(--dark-blue);
+    /* background-color: rgb(252, 232, 207); */
+    max-width:55%;
+    padding-top: 1rem;
+    text-align: left;
+    /* padding-right: 25rem; */
+    /* padding-bottom: 6rem; */
+}
+
+.details{
+    padding-top:1rem;
+} 
