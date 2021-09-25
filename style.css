@@ -48,26 +48,30 @@ body {
 
 .list-inline {
     display: inline-block;
-    padding: 0rem 1.5rem;
+    padding: 0rem 1rem;
 }
 
 .image {
     max-width: 80%;
-    width: 350px;
+    width: 325px;
     display: block;
+    padding-bottom: 1rem;
 }
 
 .header {
     color: var(--dark-blue);
-    max-width: 900px;
+    max-width: 800px;
     padding-top: 1rem;
     /* text-align: left; */
     margin: auto;
-
+}
+.header-details{
+    padding-left: 1rem;
+    margin: auto;
 }
 
 .details {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .heading-one{
@@ -80,8 +84,12 @@ body {
 .s1{
     text-align: center;
     margin: auto;
-    max-width: 60%;
+    max-width: 700px;
     color: var(--dark-blue);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap:20px;
+
 }
 .detail-one{
     padding: 1rem;
